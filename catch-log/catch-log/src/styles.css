@@ -1,11 +1,11 @@
 :root {
-  --bg: #eef3f2;
-  --surface: #ffffff;
-  --ink: #12262b;
+  --bg: #0d2433;
+  --surface: #0B3C5D;
+  --ink: #1FB5A8;
   --muted: #5b6f74;
-  --water: #1d5c6b;
+  --water: #1FB5A8;
   --bobber: #d9822b;
-  --line: #cfdcdb;
+  --line: #000000;
   --danger: #a3302a;
   font-family: 'Source Sans 3', system-ui, sans-serif;
   color: var(--ink);

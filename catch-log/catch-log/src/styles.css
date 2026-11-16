@@ -1,0 +1,39 @@
+:root {
+  --bg: #eef3f2;
+  --surface: #ffffff;
+  --ink: #12262b;
+  --muted: #5b6f74;
+  --water: #1d5c6b;
+  --bobber: #d9822b;
+  --line: #cfdcdb;
+  --danger: #a3302a;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.5; }
+h1, h2 { font-family: 'Bitter', Georgia, serif; margin: 0 0 0.5rem; }
+h1 { font-size: 1.5rem; color: var(--water); }
+h2 { font-size: 1.25rem; }
+.muted { color: var(--muted); }
+.shell { max-width: 56rem; margin: 0 auto; padding: 1rem; }
+.topbar { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; padding-bottom: 0.75rem; border-bottom: 2px solid var(--water); margin-bottom: 1.25rem; }
+.topbar nav { display: flex; gap: 0.25rem; flex: 1; }
+main { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1.25rem; }
+.tab { background: none; border: 0; padding: 0.4rem 0.7rem; font: inherit; color: var(--muted); border-radius: 4px; cursor: pointer; }
+.tab.active { color: var(--water); font-weight: 600; background: var(--bg); }
+.link { background: none; border: 0; padding: 0; font: inherit; color: var(--water); text-decoration: underline; cursor: pointer; }
+.primary { background: var(--water); color: #fff; border: 0; border-radius: 4px; padding: 0.55rem 1rem; font: inherit; font-weight: 600; cursor: pointer; }
+.primary:disabled { opacity: 0.6; }
+input, select { font: inherit; padding: 0.5rem 0.6rem; border: 1px solid var(--line); border-radius: 4px; background: #fff; color: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--bobber); outline-offset: 2px; }
+.row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.75rem 0 1rem; }
+.row input { flex: 1; min-width: 12rem; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.5rem 0.4rem; border-bottom: 1px solid var(--line); }
+.note { margin: 0.5rem 0; }
+.error { color: var(--danger); }
+.auth { max-width: 22rem; margin: 12vh auto 0; padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; display: grid; gap: 0.75rem; }
+.auth form { display: grid; gap: 0.75rem; }
+.auth label { display: grid; gap: 0.25rem; font-weight: 600; }

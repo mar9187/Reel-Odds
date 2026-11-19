@@ -2,9 +2,13 @@ import { useEffect, useState } from 'react'
 import { supabase } from './supabaseClient'
 import Auth from './components/Auth.jsx'
 import Locations from './components/Locations.jsx'
+import Predict from './components/Predict.jsx'
 
 // Add new pages here as they get built (Log trip, History, Charts, Predict).
-const TABS = [{ id: 'locations', label: 'Locations', component: Locations }]
+const TABS = [
+  { id: 'locations', label: 'Locations', component: Locations },
+  { id: 'predict', label: 'Predict', component: Predict }
+]
 
 export default function App() {
   const [session, setSession] = useState(null)

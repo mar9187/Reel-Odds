@@ -1,0 +1,30 @@
+[
+ {
+  "species": "All species",
+  "file": "all-species.json",
+  "setups": 182,
+  "successes": 101,
+  "cv_auc": 0.8972
+ },
+ {
+  "species": "Bluegill",
+  "file": "bluegill.json",
+  "setups": 182,
+  "successes": 59,
+  "cv_auc": 0.8148
+ },
+ {
+  "species": "Channel catfish",
+  "file": "channel-catfish.json",
+  "setups": 182,
+  "successes": 48,
+  "cv_auc": 0.7618
+ },
+ {
+  "species": "Largemouth bass",
+  "file": "largemouth-bass.json",
+  "setups": 182,
+  "successes": 78,
+  "cv_auc": 0.82
+ }
+]
